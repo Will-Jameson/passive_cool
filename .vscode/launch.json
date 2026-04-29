@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flash and Run",
+            "type": "cubide-debug",
+            "request": "launch",
+            "executable": "${workspaceFolder}/build/passive_cool.elf",
+            "servertype": "stlink",
+            "interface": "swd",
+            "device": "STM32F303K8Tx",
+            "runToEntryPoint": "main",
+            "resetAfterLoad": true,
+            "showDevDebugOutput": "none"
+        },
+        {
+            "name": "Attach",
+            "type": "cubide-debug",
+            "request": "attach",
+            "executable": "${workspaceFolder}/build/passive_cool.elf",
+            "servertype": "stlink",
+            "interface": "swd",
+            "device": "STM32F303K8Tx",
+            "showDevDebugOutput": "none"
+        }
+    ]
+}

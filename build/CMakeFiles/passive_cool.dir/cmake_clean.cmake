@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "passive_cool.map"
+  "CMakeFiles/passive_cool.dir/Core/Src/bme280.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/bme280.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/encoder.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/encoder.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/gpio.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/gpio.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/i2c.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/i2c.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/lcd_tc1602a.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/lcd_tc1602a.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/main.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/main.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/servo.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/servo.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/spi.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/spi.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/stm32f3xx_hal_msp.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/stm32f3xx_hal_msp.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/stm32f3xx_it.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/stm32f3xx_it.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/syscalls.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/syscalls.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/sysmem.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/sysmem.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/tim.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/tim.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/tsl2561.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/tsl2561.c.obj.d"
+  "CMakeFiles/passive_cool.dir/Core/Src/usart.c.obj"
+  "CMakeFiles/passive_cool.dir/Core/Src/usart.c.obj.d"
+  "CMakeFiles/passive_cool.dir/startup_stm32f303x8.s.obj"
+  "passive_cool.elf"
+  "passive_cool.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/passive_cool.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
